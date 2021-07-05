@@ -4,7 +4,7 @@
             var mainSlider = new Swiper('.mainSlider', {
                 onInit:function(swiper){
                     var acitveIdx = swiper.activeIndex;
-                    $('.mainSlider .swiper-slide').eq(0).on('click',function(){
+                    $('.mainSlider .swiper-slide.main').on('click',function(){
                         mainSlider.slideNext();
                     });
                 }
